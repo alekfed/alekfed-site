@@ -1,6 +1,6 @@
 # Use an empty string if you have multiple domain linking to your website
 # This string is used to generate the absolute URL for your assets.
-baseURL = 'https://example.com/'
+baseURL = 'https://alekfed.com/'
 defaultContentLanguage = 'en'
 # Emoji in markdown files
 enableEmoji = true
@@ -22,7 +22,7 @@ customJS = ["js/console.js"] # Path relative to assets folder
 # For blog page description you can overwrite it 
 # in the front matter
 description = "Boilerplate website"
-email = "mail@example.com"
+email = "mail@alekfed.com"
 favicon = '/favicon.ico'
 # Dark mode support
 # Supported value are :
@@ -36,63 +36,35 @@ favicon = '/favicon.ico'
 alt = "email icon"
 icon = "/icons/email.svg"
 name = "email"
-url = "mailto:mail@example.com"
+url = "mailto:mail@alekfed.com"
 
 [[params.social]]
 alt = "github icon"
 blank = true
 icon = "/icons/github.svg"
 name = "github"
-url = "https://github.com/"
+url = "https://sr.ht/~alekfed"
 
-[[params.social]]
-alt = "medium icon"
-blank = true
-icon = "/icons/medium.svg"
-name = "medium"
-url = "https://medium.com/"
+# # Navigation bar
+# [menu]
 
-[[params.social]]
-alt = "stack-overflow icon"
-blank = true
-icon = "/icons/stack-overflow.svg"
-name = "stack-overflow"
-url = "https://stackoverflow.com/"
+# [[menu.main]]
+# identifier = "home" # identifier is use for translations
+# pre = "" # pre is inserted before the translation (icons, image, etc)
+# url = "/" 
+# weight = 10 
 
-[[params.social]]
-alt = "twitter icon"
-blank = true
-icon = "/icons/twitter.svg"
-name = "twitter"
-url = "https://twitter.com/"
+# [[menu.main]]
+# identifier = "blog" # identifier is use for translations
+# pre = "" # pre is inserted before the translation (icons, image, etc)
+# url = "/blog/" 
+# weight = 20 
 
-[[params.social]]
-alt = "facebook icon"
-blank = true
-icon = "/icons/facebook.svg"
-name = "facebook"
-url = "https://facebook.com/"
-
-# Navigation bar
-[menu]
-
-[[menu.main]]
-identifier = "home" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/" 
-weight = 10 
-
-[[menu.main]]
-identifier = "blog" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/blog/" 
-weight = 20 
-
-[[menu.main]]
-identifier = "contact" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/#contact" 
-weight = 30 
+# [[menu.main]]
+# identifier = "contact" # identifier is use for translations
+# pre = "" # pre is inserted before the translation (icons, image, etc)
+# url = "/#contact" 
+# weight = 30 
 
 # Syntax highlightning
 [markup.highlight]
@@ -114,22 +86,8 @@ languageCode = 'en'
 languageName = 'English'
 weight = 0
 
-[languages.fr]
-contentDir = 'content/fr'
-languageCode = 'fr'
-languageName = 'Français'
+[languages.ru]
+contentDir = 'content/ru'
+languageCode = 'ru'
+languageName = 'Русский'
 weight = 2
-
-# Uncomment the following lines to add an italian translation.
-# [languages.it]
-# contentDir = 'content/it'
-# languageCode = 'it'
-# languageName = 'Italiano'
-# weight = 3
-
-# Uncomment the following lines to add an spanish translation.
-# [languages.es]
-# contentDir = 'content/es'
-# languageCode = 'es'
-# languageName = 'Español'
-# weight = 4
