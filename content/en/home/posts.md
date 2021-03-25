@@ -6,17 +6,17 @@
 # hidden = true
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-weight = 50  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Recent Posts"
-subtitle = "Read about my latest projects"
+title = "My skills"
+subtitle = "Click on cards to learn more"
 
 [content]
 	# Page type to display. E.g. post, talk, or publication.
 	page_type = "blog"
 
 	# Choose how much pages you would like to display
-	count = 5
+	count = 9
 
 	[content.filters]
 		tag = "recipe"

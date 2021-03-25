@@ -1,14 +1,14 @@
 +++
-title = "Krabby Patty recipe"
-subtitle = "How the best burger of all time is made."
+title = "DevOps aaa"
+subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
 tags = ['recipe']
-date = 2020-06-25
+date = 2020-03-25
 
 # For description meta tag
 description = "Recipe of the legendary Krabby Patty."
 
 # Comment next line and the default banner wil be used.
-banner = 'img/krabby_patty.webp'
+banner = 'img/devops.svg'
 
 +++
 
