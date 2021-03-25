@@ -1,0 +1,56 @@
+[tagged_in]
+other = "Отмеченные"
+
+[other_tags]
+other = "Другие"
+
+[read_more]
+other = "Читать далее"
+
+[name]
+other = "Имя"
+
+[your_message]
+other = "Ваше сообщение"
+
+[cancel]
+other = "Отмена"
+
+[submit]
+other = "Отправить"
+
+[previous]
+other = "Предыдущий"
+
+[next]
+other = "Следующий"
+
+[back]
+other = "Назад"
+
+[contact]
+other = "Связаться"
+
+[contact_email]
+other = "Связаться по email"
+
+[latest_post]
+other = "Недавний пост"
+
+[reading_time]
+other = "{{ .ReadingTime }} мин чтения"
+
+[home]
+other = "Домой"
+
+[about]
+other = "О себе"
+
+[blog]
+other = "Блог"
+
+[present]
+other = "Настоящее"
+
+[required_fields]
+other = "Требуемые поля"
