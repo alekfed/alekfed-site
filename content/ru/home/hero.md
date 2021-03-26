@@ -13,15 +13,15 @@ hero_media = "/img/portrait.jpg"
 # Add as much button as you want
 [[btn]]
 	# The url of the button
-  url = "/about"
+  url = "/fedchenko_ru.pdf"
 	# The text of the button
-  label = "Резюме в PDF"
+  label = "Резюме (PDF)"
 	# Primary color
 	primary = true
 
 [[btn]]
   url = "#pages"
-  label = 'Навыки'
+  label = 'Мои навыки'
 
 [[btn]]
   url = "#timeline"
@@ -33,7 +33,7 @@ hero_media = "/img/portrait.jpg"
 # Back-end разработчик, инженер DevOps
 # 30 лет, Москва
 
-На этой странице представлен мой опыт в области проектирования и
-разработки веб-приложений и встраеваемого ПО, внедрения и поддержки
+Привет! На этой странице представлен мой опыт в области проектирования
+и разработки веб-приложений и встраеваемого ПО, внедрения и поддержки
 инфраструктурных решений, системного администрирования и систем
 автоматического управления.

@@ -13,7 +13,7 @@ hero_media = "/img/portrait.jpg"
 # Add as much button as you want
 [[btn]]
 	# The url of the button
-  url = "/about"
+  url = "/fedchenko_en.pdf"
 	# The text of the button
   label = "Know more"
 	# Primary color
