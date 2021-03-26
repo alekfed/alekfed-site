@@ -1,51 +1,52 @@
 +++
-title = "One more time"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
+title = "Системное администрирование"
+subtitle = "Общий опыт: 4 года"
 tags = ['recipe']
-date = 2020-03-25
+date = 2020-03-26
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Операционные системы и системное программирование."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/linux_bsd.svg'
 
 +++
 
-## Ingredients:
+Необходимость понимания в операционных систем и умения писать shell-скрипты появляется естественным образом при работе с back-end и DevOps.
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# Linux
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+Долгое время моей повседневной системой была Arch Linux, а типовым выбором для серверов — Debian. В последнее время меня заинтересовали идеи stateless операционных систем на базе функциональных декларативных конфигураций, что привело меня к [NixOS](https://nixos.org/) и [Guix](https://guix.gnu.org/) (я поддерживаю свою системную конфигурацию в [репозитории](https://git.sr.ht/~alekfed/nix-config)).
 
-## Steps :
+NixOS вполне может избавить от необходимости возиться с Ansible при обновлении серверов и гарантировать их работоспособность при любом обновлении, но отсутствие типовых образов у облачных провайдеров пока ограничивает применимость этих идей. Что же касается Guix, то, при всей привлекательности Scheme, её время ещё не пришло, да и может не прийти: перекомпиляция ядра при каждом обновлении из-за использования несвободных драйверов — спасибо, нет, нам хватило Gentoo...
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+Говоря о Linux, нельзя обойти тему контейнеризации. Разумеется, [Docker](https://www.docker.com/): помимо написания и оптимизации Dockerfile'ов, есть опыт разворачивания систем с Docker — эта задача резко становится нетривиальной если делать это внутри LXC-контейнеров с ограниченными правами. И, да, есть опыт с [LXC](https://linuxcontainers.org/).
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+Что касаемо [systemd](https://systemd.io/): есть небольшой опыт написания юнитов, аллергии нет.
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+# FreeBSD, OpenBSD
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+Некоторое время назад меня интересовал мир BSD.
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+[FreeBSD](https://www.freebsd.org/): вполне жизнеспособный вариант для любой задачи (даже [Wayland](https://wayland.freedesktop.org/) уже по-тихоньку приживается), да и интересно наблюдать за развитием FreeBSD'шного ответа Docker Hub'у в виде [Bastille](https://bastillebsd.org/). Тем не менее, целесообразность использования FreeBSD в production весьма туманна.
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
+[OpenBSD](https://www.openbsd.org/): эталонный пример документированности и продуманности системы. Увы, из-за вечных проблем с железом и экспериментального статуса виртуализации на уровне ядра ([vmm](http://man.openbsd.org/vmm.4) — Тео всё-таки сдался) перспективы применимости этой системы ещё более туманны, чем у FreeBSD (мало кому нужен *настолько* высокий уровень безопасности системы).
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
+Тем не менее, из этого опыта я вынес любовь и уважение к [ZFS](https://en.wikipedia.org/wiki/ZFS), которая вполне надёжно портирована и на Linux ([OpenZFS](https://openzfs.org/wiki/Main_Page)). Лучше, чем нативная [Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page), уж точно.
 
+# Shell-скрипты, POSIX
+
+Несмотря на то, что Python сейчас можно найти практически на любой машине (особенно, когда Python — основной язык сервисов компании, в которой ты работаешь), иногда гораздо проще и быстрее использовать отдельные программы, склеенные shell-скриптами. В основном, я пишу скрипты с использованием башизмов, но, зависимости от задачи (Debian-based система на сервере, busybox-based образ контейнера), могу писать и в POSIX-совместимом виде.
+
+# RTOS
+
+В области встраеваемых систем, есть опыт работы над операционной системой реального времени, разрабатывавшейся на C++, а также опыт работы с FreeRTOS. RTOS на C++ создавалась в расчёте на использование в контурах управления БПЛА, FreeRTOS использовалась в контурах управления силовыми преобразователями. Без красивых интерфейсов, конечно, но своё дело делали.
+
+___
+## Иллюстрация
+
+- Композиция и заглавная надпись: до ребрендинга обложки книг O'Reilly узнавались издалека. Эта иллюстрация вдохновлена в первую очередь книгами Арнольда Роббинса по [sed и awk](https://www.amazon.com/sed-awk-Dale-Dougherty/dp/1565922255/), двум завсегдатаям моих shell-скриптов, и [отдельно awk](https://www.amazon.com/Effective-awk-Programming-Universal-Processing/dp/1491904615/), который мог бы быть неплохим скриптовым языком, если бы не принудительная (в отличие от Lua) глобальная видимость для всего.
+
+- Зелёное соцветие: библия системного программирования на Linux от [Керриска](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200/). Не могу сказать, что знаю эту книгу от корки до корки, но регулярно обращаюсь к ней, когда меня интересует что-то во внутренностях Linux. Подзаголовок **POSIX** также выполнен в цветах обложки этой книги.
+
+- Сине-голубые лямбды и красная сфера с рогами: логотипы [NixOS](https://nixos.org/) и [FreeBSD](https://www.freebsd.org/) соответственно.
