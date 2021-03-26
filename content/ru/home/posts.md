@@ -6,23 +6,23 @@
 # hidden = true
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
-weight = 50  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
-title = "Mes postes récents"
-subtitle = "Lisez à propos de mes derniers projets"
+title = "Мои навыки"
+subtitle = "Нажмите на карточки чтобы узнать больше!"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "blog"
+  page_type = "skills"
   
   # Choose how much pages you would like to display
-  count = 5
+  count = 9
 
-	[content.filters]
-    tag = "recipe"
-    category = ""
-    publication_type = ""
-    exclude_featured = false
+	# [content.filters]
+    # tag = "recipe"
+    # category = ""
+    # publication_type = ""
+    # exclude_featured = false
 +++
 
 :disappointed: Il n'y a aucun post pour le moment. :disappointed:

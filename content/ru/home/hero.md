@@ -15,16 +15,25 @@ hero_media = "/img/portrait.jpg"
 	# The url of the button
   url = "/about"
 	# The text of the button
-  label = "En savoir plus"
+  label = "Резюме в PDF"
 	# Primary color
 	primary = true
 
 [[btn]]
-  url = "#contact"
-  label = 'Me contacter'
+  url = "#pages"
+  label = 'Навыки'
+
+[[btn]]
+  url = "#timeline"
+  label = 'Опыт работы'
 
 +++
 
-# Un thème pour **exprimer** vos idées.
+# **Федченко Александр**
+# Back-end разработчик, инженер DevOps
+# 30 лет, Москва
 
-Pico est un thème qui se veut minimaliste, responsive, clair et léger.
+На этой странице представлен мой опыт в области проектирования и
+разработки веб-приложений и встраеваемого ПО, внедрения и поддержки
+инфраструктурных решений, системного администрирования и систем
+автоматического управления.

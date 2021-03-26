@@ -46,8 +46,8 @@ other = "Домой"
 [about]
 other = "О себе"
 
-[blog]
-other = "Блог"
+[skills]
+other = "Навыки"
 
 [present]
 other = "Настоящее"

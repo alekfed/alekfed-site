@@ -1,14 +1,14 @@
 +++
-title = "DevOps"
-subtitle = "Basically"
+title = "One more"
+subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
 tags = ['recipe']
-date = 2020-03-25
+date = 2020-03-22
 
 # For description meta tag
 description = "Recipe of the legendary Krabby Patty."
 
 # Comment next line and the default banner wil be used.
-banner = 'img/devops.svg'
+banner = 'img/python_v2.svg'
 
 +++
 
