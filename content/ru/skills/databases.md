@@ -1,51 +1,43 @@
 +++
-title = "One more time"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
+title = "Базы данных"
+subtitle = "Опыт — 3 года"
 tags = ['recipe']
 date = 2020-03-25
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Мой опыт с базами данных."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/databases.svg'
 
 +++
 
-## Ingredients:
+У меня есть опыт работы как с традиционными реляционными базами данных, так и с некоторыми NoSQL. 
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# RDBMS
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+Я работал с PostgresSQL, MySQL и SQLite. PostgreSQL — универсальный вариант, в котором можно и триггеры наворачивать, и даже JSON хранить. Тем не менее, сегодня в мире много баз на MySQL/MariaDB, так что довелось поработать и с ними. С SQLite я работал в составе приложения бортовой диагностики: получалось лучше, чем если хранить всё в `csv`.
 
-## Steps :
+Тем не менее, несмотря на потенциал SQL как DSL, в моей практике пока не возникало необходимости в оптимизации запросов к БД, в отличие от обилия отношений типа many-to-many. В связи с этим, мой опыт в первую очередь базируется на взаимодействии с ORM.
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+# NoSQL
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+В плане документных баз больше всего опыта взаимодействия с MongoDB, в меньшей степени с [CouchDB](https://couchdb.apache.org/) и [ArangoDB](https://www.arangodb.com/). Идея хранить документы целиком неплоха до того момента, пока не возникает необходимости делать batch-запросы по отдельным полям документов в разных коллекциях. Даже специализированный DSL (ArangoDB) или перевод запросов на REST API (CouchDB) не дотягивают до удобства SQL, так что теперь у меня несколько настороженное отношение к этой теме.
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+Я использовал [Redis](https://redis.io/) для хранения идентификаторов процессов в планировщике задач и примитивного Message Queue. Отработал неплохо, но в определённый момент [RabbitMQ](https://www.rabbitmq.com/) всё-таки потребовался.
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+# Иллюстрация
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+- Заглавная надпись: логотип [PostgreSQL](https://www.postgresql.org/), на мой взгляд, являющейся на сегодняшний день первым вариантом для любой задачи, не имеющей явно выраженной нереляционной структуры (графы, массовый анализ данных, хранение документов).
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
+- Таблицы monospace'ом в "облаках": начинаешь воспринимать сами базы данных в таком виде после того как некоторое время поработаешь с ними из терминала. Впрочем, никто не отменял `\x` в PostgreSQL или `\G` в MySQL.
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
+- Композиция в целом: [оммаж Дали](https://en.wikipedia.org/wiki/The_Elephants).
 
+- Слон: [Apache Hadoop](https://hadoop.apache.org/). К сожалению, я не сталкивался с задачами, требующими масштабов Hadoop, Cassandra или HBase.
+
+- Обелиск над спиной слона: [Redis](https://redis.io/). Как было упомянуто выше, я использовал его для кэшей.
+
+- Маленький синий осьминог у ног слона: логотип [ScyllaDB](https://www.scylladb.com/). На мой взгляд, интересный проект, учитывая полную совместимость к экосистемой Cassandra. Но, как и в случае с последней, в production использовать её не довелось.
+
+- "Домик" на заднем плане: логотип [Memcached](https://memcached.org/). Посколькуи Redis неплохо справляется с задачами, требующими key-value storage, я знаком с Memcached очень бегло.
