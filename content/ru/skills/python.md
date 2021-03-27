@@ -1,51 +1,58 @@
 +++
-title = "One more"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
-tags = ['recipe']
-date = 2020-03-22
+title = "Python"
+subtitle = "Общий опыт: 6 лет"
+tags = ['Languages']
+date = 2020-03-24
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Нечто совершенно иное."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/python_v2.svg'
 
 +++
 
-## Ingredients:
+Для меня Python является естестественным выбором в случаях, когда решаемая проблема не имеет жёстких требований по быстродействию или должна быть выполнена как можно скорее для проверки какой-либо идеи.
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# Web-фреймворки
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+Из всего многообразия Python'овских web-фреймворков мне довелось плотно поработать с тремя:
 
-## Steps :
+- [Django](https://www.djangoproject.com/) — отличный вариант, не требующий каких-либо знаний экосистемы Python: ORM в комплекте, враппер для тестов есть, над админкой и авторизацией/аутентификацией и то думать не надо! Для меня Django оказывалсянезаменимым в случаях, когда нужно было быстро сделать самостоятельное приложение "со всеми удобствами", однако, при переходе к микросервисной архитектуре
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+- [FastAPI](https://fastapi.tiangolo.com/)
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+Благодаря хорошей продуманности и подходу "all inclusive", я работал с Django больше всего.
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+FastAPI, Django, Flask, SQLAlchemy, Tortoise, Ariadne
+GraphQL
+REST Framework
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+# Types, Tests, Lint, PyRight
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
 
+# Machine Learning/Data Science
+
+Pytorch весит гиг, но есть torchvision и [pretrained-models](https://github.com/Cadene/pretrained-models.pytorch#installation)
+Установка Keras постоянно валилась из-за отсутствующих системных зависимостей
+Keras/TF+gym, pandas
+
+Анализ фидов на ML (сопоставление)
+Система управления БПЛА на ML (DDPG, Deep Deterministic Policy Gradient)
+Анализ преобразователей (pandas)
+
+Не нравится Notebook workflow.
+
+___
+## Иллюстрация
+
+Чтож, я не ожидал испанской инквизиции!
+
+На создание этой иллюстрации у меня ушло больше времени, чем на всё остальные! (не вместе взятые) Изначально, я хотел сделать коллаж в духе аппликативных анимаций Терри Гильяма с отсылками к бесподобным ["Священному Граалю"](https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail) и ["Житию Брайана"](https://en.wikipedia.org/wiki/Monty_Python's_Life_of_Brian) и той куче библиотек, что мне довелось использовать:
+
+![Python version 1](/img/python.png)
+
+Но мне не понравился результат. Точнее то, как он смотрелся в общем контексте. В итоге, я решил, что нужно "теперь нечто совершенно иное" (коронная фраза Джона Клиза из оригинального ["Monty Python's Flying Circus"](https://en.wikipedia.org/wiki/Monty_Python's_Flying_Circus)), что и сделал 😅

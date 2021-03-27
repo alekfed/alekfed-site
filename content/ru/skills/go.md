@@ -2,7 +2,7 @@
 title = "One more time"
 subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
 tags = ['recipe']
-date = 2020-03-22
+date = 2020-03-23
 
 # For description meta tag
 description = "Recipe of the legendary Krabby Patty."

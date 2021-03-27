@@ -1,7 +1,7 @@
 +++
 title = "Базы данных"
 subtitle = "Общий опыт: 3 года"
-tags = ['recipe']
+tags = ['System']
 date = 2020-03-25
 
 # For description meta tag

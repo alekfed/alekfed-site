@@ -1,7 +1,7 @@
 +++
 title = "DevOps"
 subtitle = "Общий опыт: 2 года"
-tags = []
+tags = ['System']
 date = 2020-03-27
 
 # For description meta tag

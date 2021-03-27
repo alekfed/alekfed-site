@@ -1,7 +1,7 @@
 +++
 title = "Системное администрирование"
 subtitle = "Общий опыт: 4 года"
-tags = ['recipe']
+tags = ['System']
 date = 2020-03-26
 
 # For description meta tag
