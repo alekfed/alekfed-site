@@ -1,51 +1,32 @@
 +++
-title = "One more time"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
-tags = ['recipe']
+title = "Go"
+subtitle = "Общий опыт: 1 год."
+tags = ['Languages']
 date = 2020-03-23
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Ready, steady, go!"
 
 # Comment next line and the default banner wil be used.
 banner = 'img/go.svg'
 
 +++
 
-## Ingredients:
+Проведя некоторое время на одном только Python, я почувствовал необходимость в относительно низкоуровневом языке с вменяемой потоковой моделью на уровне операционной системы, без фокусов с `async`/`await` вокруг однопоточного цикла событий без форков (ну и чтобы экосистема была большой и активной, что уж душой кривить 😅) Мне не хотелось возвращаться к C++ и связываться с JVM-based языками, так что выбор пал на Go.
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+На Go я написал пару небольших сервисов, созданных для разрабатываемой e-commerce платформы:
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+- промежуточный сервис диспетчеризации датасетов между предобработчиками данных, поступающих на вход ML-сервисов (на основе [Fiber](https://gofiber.io/))
 
-## Steps :
+- внутренний сервис нагрузочного тестирования (на основе [Vegeta](https://github.com/tsenart/vegeta))
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+Опыт был положительный, в дальнейшем мне бы хотелось задействовать Go почаще.
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+___
+# Иллюстрация
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+- Композиция в целом: постер ["Акиры"](https://en.wikipedia.org/wiki/Akira_(1988_film)) (бешенная скорость и огромное внимание к деталям — это явно про `Go`)
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+- Надписи: несмотря на то, что название языка Go не связано напрямую с японским, я нахожу интересным тот факт, что он созвучен с 語, имеющим значение ["язык"](http://www.romajidesu.com/kanji/%E8%AA%9E). "Vegeta" написано согласно [оригиналу](https://dragonball.fandom.com/wiki/Vegeta), "Fiber" написано катаканой в меру моего разумения правил транскрибирования.
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
-
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
-
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
-
+- Суслик Go: куртка из [Cyberpunk 2077](https://duckduckgo.com/?q=cyberpunk+2077+samurai+jacket&iax=images&ia=images&iai=https%3A%2F%2Fwww.nycjackets.com%2Fwp-content%2Fuploads%2F2019%2F06%2Frocyberpunk-2077-real-bomber-leather-bwn-jacket-b.jpg), с надписью ["Jaeger"](https://www.jaegertracing.io/) (микросервисный трассировщик) на воротнике и старым логотипом ["Traefik"](https://www.marksei.com/wp-content/uploads/2019/08/Traefik-Logo-720x210.png) (граничный маршрутизатор) на спине.
