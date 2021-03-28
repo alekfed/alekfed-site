@@ -1,51 +1,38 @@
 +++
-title = "One more"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
-tags = ['recipe']
+title = "JavaScript/TypeScript"
+subtitle = "Общий опыт: 2 года"
+tags = ['Languages']
 date = 2020-03-20
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Frontend matters."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/js.svg'
 
 +++
 
-## Ingredients:
+Знакомство с JavaScript неизбежно, когда работаешь с вебом: всегда надо иметь ввиду, кто и как на фронте будет запрашивать данные с твоих API. Кроме того, какая-нибудь часть бизнес-логики то и дело утекает на клиент и нужно отслеживать это при межсервисном рефакторинге.
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# TypeScript
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+Использовался мной по большей части для того, чтобы линтеры (в т.ч. на CI) и языковые серверы лучше понимали происходящее и давали более контекстный вывод. Малыми бонусами были Python-like импорты и классы, что гораздо удобнее, когда параллельно работаешь с Python-бэком, чем тот Lua-style, что царил в JS до повсеместного принятия ES2015.
 
-## Steps :
+# GraphQL
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+Как упоминалось в [разделе по Python](/ru/skills/python), часть сервисов в проекте e-commerce платформы разрабатывалась с GraphQL API. Подход "schema first" позволил команде фронтэнда определять желаемый API независимо от команды бэка, что повысило скорость разработки и качество API. Тем не менее, по мере появления новых сервисов внутри кластера образовывалось всё больше и больше независимых API, которые надо было как-то объединять.
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+К сожалению, в мире Python пока нет решений для автоматизированной организации GraphQL-шлюзов, так что пришлось взяться за JS: [Apollo Federation](https://www.apollographql.com/docs/federation/). Не то чтобы всё происходило совсем уж автоматически (нужно прописывать дополнительные аннотации в схемы), но цель была достигнута.
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+# React
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+На React я разрабатывал небольшой фронт для системы диагностики БПЛА. В целом, ничего особо выдающегося: dashboard из кучки компонентов с графиками и телеметрией, которые можно добавлять, убирать и передвигать. Зато несложно было расширять и всё работало из браузера.
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+___
+# Иллюстрация
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
+- Полупрозрачный тессеракт: логотип [webpack](https://webpack.js.org/), если бы он был спроецирован на плоскость под углом, при котором все кубы имеют одинаковый вид.
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
+- Атом в центре проекции тессеракта: [React](https://reactjs.org/).
 
+- Фон: старые логотипы [JavaScript](https://www.javascript.com/) и [TypeScript](https://www.typescriptlang.org/).

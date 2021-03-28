@@ -9,7 +9,7 @@ widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 weight = 20  # Order that this section will appear.
 
 title = "Мои навыки"
-subtitle = "Нажмите на карточки чтобы узнать больше!"
+subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
