@@ -1,51 +1,46 @@
 +++
-title = "One more time"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
+title = "C/C++"
+subtitle = "Общий опыт: 4 года"
 tags = ['recipe']
-date = 2020-03-20
+date = 2020-03-21
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "В погоне за минимальным оверхэдом."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/cpp.svg'
 
 +++
 
-## Ingredients:
+Поскольку я начинал с микроконтроллеров, `C` является моим первым "серьёзным" языком. Но в какой-то момент мне стало интересно, что ещё за классы и шаблоны, и я проваливаешься в кроличью нору C++...
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# RTOS
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+На C++ я принимал участие в разработке самописной [RTOS](https://en.wikipedia.org/wiki/Real-time_operating_system) жёсткого реального времени, использующейся в системе управления винтокрылого [БПЛА](https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%81%D0%BF%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B9_%D0%BB%D0%B5%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82). Несмотря на распространённое мнение, что "у C++ слишком большой оверхэд для микроконтроллеров, тем более для обеспечения жёсткого реального времени" всё умещалось и обеспечивалось (`-nostdlib` сыграл не последнюю роль), и в системе были все необходимые абстракции для работы прикладных программ.
 
-## Steps :
+До этого, уже просто на `C`, я работал с FreeRTOS, которую использовал для разработки систем управления импульсными преобразователями и написания прошивки радиомодема для группировки спутников [Iridium](https://www.iridium.com/), предназначавшегося для установки на БПЛА.
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+# DSP
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+Поскольку описанные в прошлом разделе ОС были написаны на C и C++, цифровая обработка сигналов ([DSP](https://en.wikipedia.org/wiki/Digital_signal_processing)) для нужд систем управления также писалась на соответствующих языках. В основном это были сильно упрощённые библиотеки по линейной алгебре и матанализу для реализации различных фильтров: [Калмана](https://en.wikipedia.org/wiki/Kalman_filter), [эллиптических](https://en.wikipedia.org/wiki/Elliptic_filter), [КИХ](https://en.wikipedia.org/wiki/Finite_impulse_response), [БИХ](https://en.wikipedia.org/wiki/Infinite_impulse_response).
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+# Имитационная модель
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+В ходе работы над системой управления БПЛА я также разрабатывал имитационную модель вертолёта, которая должна была, в том числе, работать с полноценными "железными" версиями блоков управления ([HIL](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)). Работа делалась на основе [adevs](https://web.ornl.gov/~nutarojj/adevs/) с использованием интеграторов из [SUNDIALS](https://computing.llnl.gov/projects/sundials) и линейной алгебры из [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/).
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+# Qt
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
+До того, как перейти на web-based решения (см. [Python](/ru/skills/python)), я некоторое время разрабатывал интерфейсы для испытательного оборудования на Qt. На мой взгляд, слишком много писанины для простого набора кнопок, переключателей и графиков.
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
+___
+# Иллюстрация
 
+- Композиция в целом: обложки культовых книг по C++ от Addison-Wesley от Скотта Майерса и The "Gang of Four": [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/), [Effective C++](https://www.amazon.com/Effective-Specific-Improve-Programs-Designs/dp/0321334876/), [More Effective C++](https://www.amazon.com/More-Effective-Improve-Programs-Designs/dp/020163371X/), [Effective STL](https://www.amazon.com/Effective-STL-Specific-Standard-Template/dp/0201749629/).
+
+- It's dangerous to go alone! Take [this](https://zelda.fandom.com/wiki/Triforce).
+
+- Пожалуй, каждый, кто бывал в краях C++, захаживал на [мельницу секретаря комитета стандартизации C++](https://herbsutter.com/).
+
+- "Elements of Overcomplicated Designs" — это личное 😄
+
+- Магический квадрат: поскольку на обложке "Design Patterns" изображены ["Лебеди" Эшера](https://arthive.com/escher/works/200315~Swans), мне хотелось поместить на свою квазиобложку что-то близкое по духу. В итоге, выбор пал на магический квадрат из ["Меланхолии I" Дюрера](https://en.wikipedia.org/wiki/Melencolia_I) — то же математическое очарование, тот же гравюрный стиль.
