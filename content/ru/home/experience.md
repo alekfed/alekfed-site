@@ -13,7 +13,7 @@ title = "Опыт работы"
 date_format = "01.2006" # Date format https://gohugo.io/functions/dateformat/#readout
 
 [[period]]
-  title = "Руководитель разработки (Team Lead)"
+  title = "Ведущий разработчик (Lead Software Engineer)"
   subtitle = "B2basket.ru"
   location = "Москва"
   date_start = "2019-10-01"

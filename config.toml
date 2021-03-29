@@ -50,16 +50,16 @@ alt = "github icon"
 blank = true
 icon = "/icons/git.svg"
 name = "git"
-url = "https://sr.ht/~alekfed"
+url = "https://git.sr.ht/~alekfed"
 
 # Navigation bar
 [menu]
 
-[[menu.main]]
-identifier = "home" # identifier is use for translations
-pre = "" # pre is inserted before the translation (icons, image, etc)
-url = "/" 
-weight = 10 
+# [[menu.main]]
+# identifier = "home" # identifier is use for translations
+# pre = "" # pre is inserted before the translation (icons, image, etc)
+# url = "/" 
+# weight = 10 
 
 [[menu.main]]
 identifier = "skills" # identifier is use for translations
