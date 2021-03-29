@@ -3,7 +3,7 @@ widget = "contact_form"
 title = "Me Contacter" 
 
 # Uncomment the following line and widget will NOT be displayed
-# hidden = true
+hidden = true
 
 # Uncomments the following line for
 # standard forms.

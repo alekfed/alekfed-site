@@ -50,7 +50,7 @@ other = "О себе"
 other = "Навыки"
 
 [present]
-other = "Настоящее"
+other = "Настоящее время"
 
 [required_fields]
 other = "Требуемые поля"
