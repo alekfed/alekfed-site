@@ -1,51 +1,56 @@
 +++
-title = "One more time"
-subtitle = "My name is Giovanni Giorgio but everybody calls me... Giorgio. Tamtamtaratamtamtam, tamtamtamtarama, oeuoeu eoue euoeuoe oeu oeuo eu eouo euoe ueouoeuoe."
-tags = ['recipe']
+title = "Разработка систем управления"
+subtitle = "Общий опыт: 6 лет"
+tags = ['Other']
 date = 2020-02-25
 
 # For description meta tag
-description = "Recipe of the legendary Krabby Patty."
+description = "Линейная алгебра, комплексный анализ и группы."
 
 # Comment next line and the default banner wil be used.
 banner = 'img/math_control.svg'
 
 +++
 
-## Ingredients:
+Системы автоматического управления используют математический аппарат линейной алгебры, комплексного анализа, теории групп и теории вероятностей. Мой опыт работы с системами управления находится в области испытательных комплексов и летательных аппаратов.
 
-For 4 people :
-- Lots of love
-- 2 cans of crab meat
-- 1 lightly beaten egg
-- 1/2 lemon juice
-- Breadcrumbs
-- 1 tomato
-- Hamburger bread
-- Pickles
-- 1 onion
-- 4 salad leaves
-- Frying oil
-- Salt pepper
+# Опубликованные работы
 
-For the sauce:
-- Worcestershire sauce
-- Ketchup
-- Mustard
+За время обучения в аспирантуре я опубликовал [пару десятков статей](https://www.elibrary.ru/author_items.asp?pubrole=100&authorid=872738&show_refs=1&show_option=0) и тройку патентов:
 
-## Steps :
+- https://yandex.ru/patents/doc/RU153595U1_20150727
+- https://yandex.ru/patents/doc/RU154432U1_20150827
+- https://yandex.ru/patents/doc/RU159208U1_20160210
 
-- In a bowl, beat 1 egg then add the crabmeat, breadcrumbs, lemon juice, salt and pepper. Mix until you get a homogeneous consistency.
+Все они относятся к испытаниям систем электропитания космических аппаратов.
 
-- Then form crab pâté steaks and brown them in a pan with a drizzle of frying oil for 4 to 5 minutes on each side.
+# Испытательные комплексы
 
-- Meanwhile, make the sauce. Combine Worcestershire sauce with mustard and ketchup. Taste then change the seasoning if necessary.
+Я занимался разработкой электронных нерассеивающих нагрузок и программируемых зарядно-разрядных устройств. Я исследовал вопросы сопряжения систем управления отдельных нагрузочных ячеек, состоящих из импульсных преобразователей и широкополосных линейных регуляторов с целью получения требуемых входных адмиттансно-частотных характеристик, в частности, для возможности наведения управляемых помех по потребляемом току в десятки ампер.
 
-- Reserve the crab pâté steaks on a paper towel and then brown the burger buns for a few minutes.
+В целом, всё выглядело примерно так: сначала делались простые системы управления на БИХ-фильтрах или широкополосных аналоговых ПИД-регуляторах, затем модели уточнялись, делался синтез MIMO H∞-регуляторов для нескольких преобразователей и балансировались взаимовлияние ячеек.
 
-- Cut the tomato into slices, mince the onion and cut the pickles into pieces.
+# Винтокрылые БПЛА
 
-- Place the crab pâté steaks on each burger bun, then add a salad leaf, a few tomato slices, onions and pickles.
+Для системы управления вертолётов я разрабатывал как саму систему управления с необходимыми цепями обработки, так и имитационную математическую модель вертолёта, поскольку без замкнутых контуров управления вертолёт является неустойчивым, что значительно затрудняет синтез системы управления.
 
-- Add the sauce and cover with burger bread before tasting these delicious Krabby Krab!
+Математическая модель во многом основывалась на работах [Пэдфилда](https://www.amazon.com/Helicopter-Flight-Dynamics-Including-Treatment/dp/1119401054/) и [Джонсона](https://www.amazon.com/Rotorcraft-Aeromechanics-Cambridge-Aerospace-Johnson/dp/1107028078/) и разрабатывалась на C++ (подробнее в [соответствующем разделе](/ru/skills/cpp)).
 
+Система управления разрабатывалась как набор MIMO-регуляторов ввиду сильного взаимовлияния контуров управления (особенно по циклическим шагам). Помимо классических вариантов (H∞, ПИД), было исследовано несколько экспериментальных вариантов регуляторов, в частности:
+
+- нелинейные регуляторы (полученные путём [бэкстеппинга](https://en.wikipedia.org/wiki/Backstepping)) — по факту они получались сильно зависящими от проработанности математической модели и давали слишком консервативные результаты (что, вообще говоря, логично, для ляпуновских регуляторов);
+
+- регуляторы на основе нейросетей ([Keras](https://keras.io/), см. [Python](/ru/skills/python)) — делались на методом обучения с подкреплением с градиентным поиском оптимума. Ресурсов расходовалось много, устойчивость не всегда обеспечивалась даже в простейших режимах полёта, а о надёжности такой системы управления в экстремальных режимах вообще ничего неизвестно.
+
+Для систем управления также разрабатывались различные цифровые фильтры (см. [C++](/ru/skills/cpp)). В частности, при разработке модуля определения направления ветра по косвенным данным, я строил различные варинты наблюдателей ([UKF](https://en.wikipedia.org/wiki/Kalman_filter#Unscented_Kalman_filter), [многочастичный](https://en.wikipedia.org/wiki/Particle_filter)), но в итоге с задачей прекрасно справился обычный [EKF](https://en.wikipedia.org/wiki/Extended_Kalman_filter).
+
+___
+# Иллюстрация
+
+- Композиция в целом: обложка [превосходной книги](https://www.amazon.com/Nonlinear-Systems-3rd-Hassan-Khalil/dp/0130673897) Хассана Халила по нелинейным системам.
+
+- Формулы: [расширенный фильтр Калмана](https://en.wikipedia.org/wiki/Extended_Kalman_filter) — отличный наблюдатель состояний.
+
+- Структурная схема: [линейная стационарная система](https://en.wikipedia.org/wiki/Linear_time-invariant_system) с неопределённостями, приведённая путём [дробно-линейных преобразований](https://en.wikipedia.org/wiki/Linear_fractional_transformation) к виду, удобному для анализа и синтеза робастных регуляторов ([статья](https://core.ac.uk/download/pdf/84317308.pdf), с которой пошла мода на подобные вещи).
+
+- Вертолёт на заднем плане: [Commanche](https://en.wikipedia.org/wiki/Boeing%E2%80%93Sikorsky_RAH-66_Comanche) — с детства нравился его относительно миниатюрный внешний вид с [фенестроном](https://ru.wikipedia.org/wiki/%D0%A4%D0%B5%D0%BD%D0%B5%D1%81%D1%82%D1%80%D0%BE%D0%BD).
