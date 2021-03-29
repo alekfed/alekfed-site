@@ -41,7 +41,7 @@ other = "Latest post"
 other = "{{ .ReadingTime }} min read"
 
 [home]
-other = "Home"
+other = "Main"
 
 [about]
 other = "About"
@@ -54,3 +54,6 @@ other = "Present"
 
 [required_fields]
 other = "Required fields"
+
+[experience]
+other = "Experience"

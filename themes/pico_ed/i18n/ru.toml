@@ -41,7 +41,7 @@ other = "Недавний пост"
 other = "{{ .ReadingTime }} мин чтения"
 
 [home]
-other = "Домой"
+other = "Главная"
 
 [about]
 other = "О себе"
@@ -54,3 +54,6 @@ other = "Настоящее время"
 
 [required_fields]
 other = "Требуемые поля"
+
+[experience]
+other = "Опыт работы"

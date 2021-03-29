@@ -52,26 +52,26 @@ icon = "/icons/git.svg"
 name = "git"
 url = "https://sr.ht/~alekfed"
 
-# # Navigation bar
-# [menu]
+# Navigation bar
+[menu]
 
-# [[menu.main]]
-# identifier = "home" # identifier is use for translations
-# pre = "" # pre is inserted before the translation (icons, image, etc)
-# url = "/" 
-# weight = 10 
+[[menu.main]]
+identifier = "home" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/" 
+weight = 10 
 
-# [[menu.main]]
-# identifier = "blog" # identifier is use for translations
-# pre = "" # pre is inserted before the translation (icons, image, etc)
-# url = "/blog/" 
-# weight = 20 
+[[menu.main]]
+identifier = "skills" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/#pages" 
+weight = 20 
 
-# [[menu.main]]
-# identifier = "contact" # identifier is use for translations
-# pre = "" # pre is inserted before the translation (icons, image, etc)
-# url = "/#contact" 
-# weight = 30 
+[[menu.main]]
+identifier = "experience" # identifier is use for translations
+pre = "" # pre is inserted before the translation (icons, image, etc)
+url = "/#timeline" 
+weight = 30 
 
 # Syntax highlightning
 [markup.highlight]

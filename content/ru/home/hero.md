@@ -12,14 +12,6 @@ hero_media = "/img/portrait.jpg"
 # Buttons
 # Add as much button as you want
 [[btn]]
-  url = "#pages"
-  label = 'Мои навыки'
-
-[[btn]]
-  url = "#timeline"
-  label = 'Опыт работы'
-
-[[btn]]
 	# The url of the button
   url = "/fedchenko_ru.pdf"
 	# The text of the button
