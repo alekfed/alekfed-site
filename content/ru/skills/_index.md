@@ -1,5 +1,5 @@
 +++
-title = "Cultivez-vous sur ce qui compte pour vous."
+title = "Мои навыки"
 # Default banner
 [cascade]
   banner = "img/default_banner.webp"

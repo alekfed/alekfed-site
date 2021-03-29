@@ -1,7 +1,7 @@
 +++
 title = "C/C++"
 subtitle = "Общий опыт: 4 года"
-tags = ['recipe']
+tags = ['Languages']
 date = 2020-03-21
 
 # For description meta tag

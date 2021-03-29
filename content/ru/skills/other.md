@@ -1,7 +1,7 @@
 +++
 title = "Прочие навыки"
 subtitle = "Общий опыт: разный"
-tags = ['recipe']
+tags = ['Other']
 date = 2020-02-20
 
 # For description meta tag
