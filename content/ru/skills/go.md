@@ -25,8 +25,8 @@ banner = 'img/go.svg'
 ___
 # Иллюстрация
 
-- Композиция в целом: постер ["Акиры"](https://en.wikipedia.org/wiki/Akira_(1988_film)) (бешенная скорость и огромное внимание к деталям — это явно про `Go`).
+- Композиция в целом: постер [«Акиры»](https://en.wikipedia.org/wiki/Akira_(1988_film)) (бешенная скорость и огромное внимание к деталям — это явно про `Go`).
 
-- Надписи: несмотря на то, что название языка Go не связано напрямую с японским, я нахожу интересным тот факт, что он созвучен с 語, имеющим значение ["язык"](http://www.romajidesu.com/kanji/%E8%AA%9E). "Vegeta" написано согласно [оригиналу](https://dragonball.fandom.com/wiki/Vegeta), "Fiber" написано катаканой в меру моего разумения правил транскрибирования.
+- Надписи: несмотря на то, что название языка Go не связано напрямую с японским, я нахожу интересным тот факт, что он созвучен с 語 (['язык'](http://www.romajidesu.com/kanji/%E8%AA%9E)). «Vegeta» написано согласно [оригиналу](https://dragonball.fandom.com/wiki/Vegeta), «Fiber» написано катаканой в меру моего разумения правил транскрибирования.
 
-- Суслик Go: куртка из [Cyberpunk 2077](https://duckduckgo.com/?q=cyberpunk+2077+samurai+jacket&iax=images&ia=images&iai=https%3A%2F%2Fwww.nycjackets.com%2Fwp-content%2Fuploads%2F2019%2F06%2Frocyberpunk-2077-real-bomber-leather-bwn-jacket-b.jpg), с надписью ["Jaeger"](https://www.jaegertracing.io/) (микросервисный трассировщик) на воротнике и старым логотипом ["Traefik"](https://www.marksei.com/wp-content/uploads/2019/08/Traefik-Logo-720x210.png) (граничный маршрутизатор) на спине.
+- Суслик Go: куртка из [Cyberpunk 2077](https://duckduckgo.com/?q=cyberpunk+2077+samurai+jacket&iax=images&ia=images&iai=https%3A%2F%2Fwww.nycjackets.com%2Fwp-content%2Fuploads%2F2019%2F06%2Frocyberpunk-2077-real-bomber-leather-bwn-jacket-b.jpg), с надписью [«Jaeger»](https://www.jaegertracing.io/) (микросервисный трассировщик) на воротнике и старым логотипом [«Traefik»](https://www.marksei.com/wp-content/uploads/2019/08/Traefik-Logo-720x210.png) (граничный маршрутизатор) на спине.
