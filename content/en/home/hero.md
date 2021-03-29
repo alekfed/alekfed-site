@@ -26,3 +26,6 @@ hero_media = "/img/portrait.jpg"
 
 Hi! This page presents my experience in web application design (microsevice, serverless and monolithic architectures), back-end and embedded software development, DevOps, system administration and control systems engineering.
 
+You can also download a one-page résumé with the most important information from the link below.
+
+Have fun!
