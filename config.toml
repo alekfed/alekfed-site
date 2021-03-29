@@ -39,10 +39,17 @@ name = "email"
 url = "mailto:mail@alekfed.com"
 
 [[params.social]]
+alt = "telegram icon"
+blank = true
+icon = "/icons/telegram.svg"
+name = "telegram"
+url = "https://t.me/alekfed"
+
+[[params.social]]
 alt = "github icon"
 blank = true
-icon = "/icons/github.svg"
-name = "github"
+icon = "/icons/git.svg"
+name = "git"
 url = "https://sr.ht/~alekfed"
 
 # # Navigation bar
