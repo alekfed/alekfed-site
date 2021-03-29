@@ -15,17 +15,14 @@ hero_media = "/img/portrait.jpg"
 	# The url of the button
   url = "/fedchenko_en.pdf"
 	# The text of the button
-  label = "Know more"
+  label = "Résumé (PDF)"
 	# Primary color
 	primary = true
 
-[[btn]]
-  url = "#contact"
-  label = 'Contact me'
-
 +++
 
-# A theme to **express** your ideas.
+# **Aleksandr Fedchenko**
+# 30 y.o., Moscow
 
-Pico is a minimalist, readable, responsive, light and beautiful Hugo theme.
+Hi! This page presents my experience in web application design (microsevice, serverless and monolithic architectures), back-end and embedded software development, DevOps, system administration and control systems engineering.
 
