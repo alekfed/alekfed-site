@@ -13,16 +13,16 @@ subtitle = ""
 
 [content]
 	# Page type to display. E.g. post, talk, or publication.
-	page_type = "blog"
+	page_type = "skills"
 
 	# Choose how much pages you would like to display
 	count = 9
 
-	[content.filters]
-		tag = "recipe"
-		category = ""
-		publication_type = ""
-		exclude_featured = false
+	# [content.filters]
+	# tag = "recipe"
+	# category = ""
+	# publication_type = ""
+	# exclude_featured = false
 +++
 
 :disappointed: There are no posts at the moment. :disappointed:
