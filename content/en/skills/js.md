@@ -12,11 +12,11 @@ banner = 'img/js.svg'
 
 +++
 
-Familiarity with JavaScript is inevitable when working with the web: you always need to keep in mind who and how on the front end will request data from your APIs. In addition, some part of the business logic sometimes leaks to the client and you need to consider this JS code as well during back-end services refactoring.
+Familiarity with JavaScript is inevitable when working with the web: you always need to keep in mind who and how on the front end will request data from your APIs. In addition, some part of the business logic sometimes leaks to the client and you need to consider this during back-end services refactoring.
 
 # TypeScript
 
-I used TypeScript primarily because it allows linters (including ones on CI) and language servers to have better understanding of code and to give more contextual output when types involved. Python-like imports and classes were small bonuses as well: they are much more convenient when working in parallel with a back-end in Python, than that Lua-style which was predominant in JS before the widespread adoption of ES2015.
+I used TypeScript primarily because it allows linters (including ones on CI) and language servers to have a better understanding of the code and to give more contextual output when types are involved. Python-like imports and classes were small bonuses as well: they are much more convenient when working in parallel with a back-end in Python, than that Lua-style which was predominant in JS before the widespread adoption of ES2015.
 
 # GraphQL
 
