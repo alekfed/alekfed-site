@@ -14,25 +14,25 @@ banner = 'img/cpp.svg'
 
 Since I started programming with microcontrollers, C became my first "serious" language. But at some point I became interested in writing native desktop GUIs, and started to learn, how classes and templates can help me at large...
 
-*Note:* I'm **not interested** in C/C++ jobs at the moment.
+*Note:* I'm **not** interested in C/C++ at the moment.
 
 # RTOS
 
 In C++, I developed an in-house [Hard RTOS](https://en.wikipedia.org/wiki/Real-time_operating_system) which is used in the control system of the rotorcraft [UAV](https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle). Despite the widespread belief that "C++ has too big overhead for microcontrollers, especially for providing hard real-time capabilities", everything somehow fitted in memory, and hard real-time was provided on microcontrollers with one CPU without a floating point coprocessor.
 
-Before that, already in C, I worked with [FreeRTOS](https://freertos.org/), which I used to develop control systems for switched-mode power converters and for the firmware of a radio modems that worked with an [Iridium] (https: //www.iridium. com /) satellite constellation and was used in then-developed UAV.
+Before that, already in C, I worked with [FreeRTOS](https://freertos.org/), which I used to develop control systems for switched-mode power converters and for the firmware of a radio modems that worked with an [Iridium](https://www.iridium.com/) satellite constellation and was used in then-developed UAV.
 
 # DSP
 
-Since the embedded operating systems I worked with were written in C and C ++, [DSP](https://en.wikipedia.org/wiki/Digital_signal_processing) modules were also written in the corresponding languages for the needs of control systems. Basically, it was highly simplified libraries for linear algebra and mathematical analysis for the implementation of various filters: [Kalman](https://en.wikipedia.org/wiki/Kalman_filter), [elliptic](https://en.wikipedia.org/wiki/Elliptic_filter), [FIR](https://en.wikipedia.org/wiki/Finite_impulse_response), [IIR](https://en.wikipedia.org/wiki/Infinite_impulse_response).
+Since the embedded operating systems I worked with were written in C and C++, [DSP](https://en.wikipedia.org/wiki/Digital_signal_processing) modules were also written in the corresponding languages for the needs of control systems. Basically, it was highly simplified libraries for linear algebra and mathematical analysis for the implementation of various filters: [Kalman](https://en.wikipedia.org/wiki/Kalman_filter), [elliptic](https://en.wikipedia.org/wiki/Elliptic_filter), [FIR](https://en.wikipedia.org/wiki/Finite_impulse_response), [IIR](https://en.wikipedia.org/wiki/Infinite_impulse_response).
 
 # Simulation model
 
-In the course of work on the UAV control system, I also developed a simulation model of the helicopter, which, among other things, had to work with full-fledged hardware versions of control units ([HIL](https://en.wikipedia.org/wiki/Hardware- in-the-loop_simulation)). This work was done using [adevs](https://web.ornl.gov/~nutarojj/adevs/), ODE solvers from [SUNDIALS](https://computing.llnl.gov/projects/sundials) and linear algebra routines from [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/).
+In the course of work on the UAV control system, I also developed a simulation model of the helicopter, which, among other things, had to work with full-fledged hardware versions of control units ([HIL](https://en.wikipedia.org/wiki/Hardware-in-the-loop_simulation)). This work was done using [adevs](https://web.ornl.gov/~nutarojj/adevs/), ODE solvers from [SUNDIALS](https://computing.llnl.gov/projects/sundials) and linear algebra routines from [Blaze](https://bitbucket.org/blaze-lib/blaze/src/master/).
 
 # Qt
 
-Before switching to web-based solutions (see [Python](/skills/python)), I spent some time developing interfaces for testing equipment in Qt. Too much boilerplate for a simple set of buttons, switches and graphs...
+Before switching to web-based solutions (see [Python](/skills/python)), I spent some time developing interfaces for testing equipment in Qt. They're responsive, indeed, but it's too much boilerplate for a simple set of buttons, switches and graphs...
 
 ___
 # Illustration
