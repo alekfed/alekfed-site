@@ -18,9 +18,9 @@ banner = 'img/math_control.svg'
 
 За время обучения в аспирантуре я опубликовал [пару десятков статей](https://www.elibrary.ru/author_items.asp?pubrole=100&authorid=872738&show_refs=1&show_option=0) и тройку патентов:
 
-- https://patents.google.com/patent/RU153595U1
-- https://patents.google.com/patent/RU154432U1
-- https://patents.google.com/patent/RU159208U1
+- [RU153595U1](https://patents.google.com/patent/RU153595U1)
+- [RU154432U1](https://patents.google.com/patent/RU154432U1)
+- [RU159208U1](https://patents.google.com/patent/RU159208U1)
 
 Все они относятся к испытаниям систем электропитания космических аппаратов.
 
@@ -28,7 +28,7 @@ banner = 'img/math_control.svg'
 
 [MATLAB](https://www.mathworks.com/products/matlab.html) зачастую является первым (и самым проработанным) выбором в качестве среды для разработки систем управления. Поскольку в определённый момент я начал пользоваться [pandas](https://pandas.pydata.org/), я решил перевести на Python также и свое окружение для работы с системами управления, использовав для этого [python-control](https://python-control.readthedocs.io/en/0.9.0/).
 
-Сегодня же я бы занимался системами управления на [Julia](https://julialang.org/), поскольку в его экосистеме окрепли пакеты и для самих [систем управления](http://juliacontrol.github.io/ControlSystems.jl/latest/), и для анализа с [неопределённостями](https://github.com/baggepinnen/MonteCarloMeasurements.jl), и очень впечатляющая [коллекция интеграторов](https://diffeq.sciml.ai/stable/).
+Сегодня же я бы занимался системами управления на [Julia](https://julialang.org/), поскольку в его экосистеме окрепли пакеты и для самих [систем управления](http://juliacontrol.github.io/ControlSystems.jl/latest/), и для [анализа неопределённостей](https://github.com/baggepinnen/MonteCarloMeasurements.jl), и очень впечатляющая [коллекция интеграторов](https://diffeq.sciml.ai/stable/).
 
 # Испытательные комплексы
 
