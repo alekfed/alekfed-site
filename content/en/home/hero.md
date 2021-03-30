@@ -22,7 +22,7 @@ hero_media = "/img/portrait.jpg"
 +++
 
 # **Aleksandr Fedchenko**
-# 30 y.o., Moscow
+# 30 years old, Moscow
 
 Hi! This page presents my experience in web application design, back-end and embedded software development, DevOps, system administration and control systems engineering.
 

@@ -34,7 +34,7 @@ Some time ago I was interested in the BSD world.
 
 Nevertheless, I acquired love and respect for [ZFS](https://en.wikipedia.org/wiki/ZFS) from this experience, which is quite reliably ported to Linux ([OpenZFS](https://openzfs.org/wiki/Main_Page)). Better than native [Btrfs](https://btrfs.wiki.kernel.org/index.php/Main_Page) for sure.
 
-# Shell scripting
+# Shell Scripting
 
 Despite the fact that Python can be found on almost any machine now (especially when Python is the main working language in your company), sometimes it is much easier and faster to glue together separate programs using shell scripts. Usually, I write scripts using bashisms, but depending on the task (Debian-based system on the server, busybox-based image...), I can write in a `POSIX sh`-compatible form as well.
 
