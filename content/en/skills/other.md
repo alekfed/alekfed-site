@@ -24,7 +24,7 @@ And, since I use [Emacs](https://www.gnu.org/software/emacs/) as my main editor,
 
 # Inkscape
 
-In my previous works, every now and then there was a need to draw some presentable diagram or graphics. I don't have any art or design education, and from the tools I only have a touchpad on a laptop, but I seem to have mastered the illustrations for this site 😅
+In my previous jobs, every now and then there was a need to draw some presentable diagram or graphics. I don't have any art or design education, and laptop's touchpad is the only tool I have, but I seem to have mastered the illustrations for this site 😅
 
 # LaTeX
 
