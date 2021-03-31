@@ -72,7 +72,7 @@ date_format = "01.2006" # Date format https://gohugo.io/functions/dateformat/#re
   """
 
 [[period]]
-  title = "Разработчик встраеваемого ПО (Embedded Software Developer)"
+  title = "Разработчик встроенного ПО (Embedded Software Developer)"
   subtitle = "АВАКС-ГеоСервис"
   location = "Красноярск, КК"
   date_start = "2014-07-01"

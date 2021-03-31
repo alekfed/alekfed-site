@@ -24,7 +24,7 @@ banner = 'img/cpp.svg'
 
 # DSP
 
-Поскольку встраиваемые ОС, с которыми я работал, были написаны на C и C++, цифровая обработка сигналов ([DSP](https://en.wikipedia.org/wiki/Digital_signal_processing)) для нужд систем управления также писалась на соответствующих языках. В основном это были сильно упрощённые библиотеки по линейной алгебре и матанализу для реализации различных фильтров: [Калмана](https://en.wikipedia.org/wiki/Kalman_filter), [эллиптических](https://en.wikipedia.org/wiki/Elliptic_filter), [КИХ](https://en.wikipedia.org/wiki/Finite_impulse_response), [БИХ](https://en.wikipedia.org/wiki/Infinite_impulse_response).
+Поскольку встроенные ОС, с которыми я работал, были написаны на C и C++, цифровая обработка сигналов ([DSP](https://en.wikipedia.org/wiki/Digital_signal_processing)) для нужд систем управления также писалась на соответствующих языках. В основном это были сильно упрощённые библиотеки по линейной алгебре и матанализу для реализации различных фильтров: [Калмана](https://en.wikipedia.org/wiki/Kalman_filter), [эллиптических](https://en.wikipedia.org/wiki/Elliptic_filter), [КИХ](https://en.wikipedia.org/wiki/Finite_impulse_response), [БИХ](https://en.wikipedia.org/wiki/Infinite_impulse_response).
 
 # Имитационная модель
 
