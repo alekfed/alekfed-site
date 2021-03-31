@@ -21,7 +21,7 @@ customJS = ["js/console.js"] # Path relative to assets folder
 # Homepage description
 # For blog page description you can overwrite it 
 # in the front matter
-description = "Boilerplate website"
+description = "Aleksandr Fedchenko"
 email = "mail@alekfed.com"
 favicon = '/favicon.ico'
 # Dark mode support
