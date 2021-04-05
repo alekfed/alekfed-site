@@ -22,7 +22,7 @@ customJS = ["js/console.js"] # Path relative to assets folder
 # For blog page description you can overwrite it 
 # in the front matter
 description = "Aleksandr Fedchenko"
-email = "mail@alekfed.com"
+email = "alek.fedchenko@gmail.com"
 favicon = '/favicon.ico'
 # Dark mode support
 # Supported value are :
@@ -36,7 +36,7 @@ favicon = '/favicon.ico'
 alt = "email icon"
 icon = "/icons/email.svg"
 name = "email"
-url = "mailto:mail@alekfed.com"
+url = "mailto:alek.fedchenko@gmail.com"
 
 [[params.social]]
 alt = "telegram icon"
